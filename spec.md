@@ -6,6 +6,7 @@
 
 <t-activity-item
 	resources="{{resources}}"
+	settings="{{settings}}"
 	items="{{items}}"
 >
 </t-activity-item>
