@@ -7,7 +7,6 @@
 <t-activity-item
 	resources="{{resources}}"
 	settings="{{settings}}"
-	items="{{items}}"
 >
 </t-activity-item>
 
@@ -31,52 +30,9 @@
 
 	  var settings = {
 	    "imgPlaceholder": "http://cdn.xyz.com/images/placeholder.jpg",
-		"onShowOptionClick": "_showOptions(item)",
-		"truncateTitle": 45
+		"onShowOptionClick": "_showOptions(item)"
 	  }
 
-```
-
-#### Results Data
-
-```javascript
-
-	var items = [
-		    {
-		      "title": "This is an activity name",
-		      "description": "Beans are cool and they are beans.  Eat them.  They are yummy",
-		      "category": {
-		        "name": "Family Friendly"
-		      },
-		      "thumbnail": "http://www.dynamic.viator.com/graphicslib/6801/SITours/cool-beans-mod-in-las-vegas-168521.jpg",
-		      "isCancellable": true,
-		      "allPassengersInfoRequired": false,
-		      "isGuaranteeRequired": true,
-		      "name": "Cool Beans MOD",
-		      "id": "",
-		      "fare": {
-		        "amount": 10.37,
-		        "currency": "USD"
-		      }
-		    },
-		    {
-		      "title": "This is an activity name",
-		      "description": "Beans are cool and they are beans.  Eat them.  They are yummy",
-		      "category": {
-		        "name": "Family Friendly"
-		      },
-		      "thumbnail": "http://www.dynamic.viator.com/graphicslib/6801/SITours/cool-beans-mod-in-las-vegas-168521.jpg",
-		      "isCancellable": true,
-		      "allPassengersInfoRequired": false,
-		      "isGuaranteeRequired": true,
-		      "name": "Cool Beans MOD",
-		      "id": "",
-		      "fare": {
-		        "amount": 10.37,
-		        "currency": "USD"
-		      }
-		    }
-		  ]
 ```
 
 
