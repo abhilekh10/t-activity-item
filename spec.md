@@ -45,7 +45,7 @@
 
 
 ## Test Cases
-- Basic validation for filter
+
 
 ## Steps to Start
 - Set Github repository at your end for this project, we will merge them later
@@ -64,7 +64,7 @@
 
 ## Ballpark Estimates
 
-5 Days / 25 Weeks
+10 Days / 2 Weeks
 - Estimates are including above requrement with responsive design.
 - Estimates are for single resourse.
 - These are ballpark estimates and can be more/less while actual development.
